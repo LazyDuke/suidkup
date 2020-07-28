@@ -1,0 +1,5 @@
+*.config.js
+*.test.js
+packages/**/es/**
+packages/**/lib/**
+packages/**/dist/**

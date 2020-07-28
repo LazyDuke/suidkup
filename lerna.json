@@ -1,0 +1,15 @@
+{
+  "packages": ["packages/suidkup-cli-version-marker", "package/@suidkup/cli*"],
+  "npmClient": "yarn",
+  "useWorkspaces": true,
+  "version": "independent",
+  "command": {
+    "version": {
+      "message": "chore: publish"
+    },
+    "publish": {
+      "access": "public",
+      "registry": "https://registry.npmjs.org/"
+    }
+  }
+}

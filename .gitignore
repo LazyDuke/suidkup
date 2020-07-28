@@ -1,0 +1,6 @@
+node_modules
+lerna-debug.log
+packages/**/es/**
+packages/**/lib/**
+packages/**/dist/**
+yarn-error.log
