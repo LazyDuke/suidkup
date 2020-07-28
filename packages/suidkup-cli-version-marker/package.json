@@ -1,0 +1,16 @@
+{
+  "name": "suidkup-cli-version-marker",
+  "version": "0.0.1-alpha",
+  "description": "version marker for @suidkup/cli",
+  "author": "懒成铁 <weiguocai.fzu@gmail.com>",
+  "homepage": "https://github.com/LazyDuke/suidkup#readme",
+  "license": "MIT",
+  "main": "package.json",
+  "devDependencies": {
+    "@suidkup/cli": "^0.0.1-alpha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LazyDuke/suidkup.git"
+  }
+}
