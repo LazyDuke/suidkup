@@ -1,0 +1,26 @@
+{
+  "name": "@suidkup/cli",
+  "version": "0.0.1-alpha",
+  "description": "Command line interface for rapid SDK development",
+  "bin": {
+    "suidkup": "bin/suidkup.js"
+  },
+  "keywords": [
+    "sdk",
+    "cli"
+  ],
+  "author": "懒成铁 <weiguocai.fzu@gmail.com>",
+  "homepage": "https://github.com/LazyDuke/suidkup#readme",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LazyDuke/suidkup.git",
+    "directory": "packages/@suidkup/cli"
+  },
+  "bugs": {
+    "url": "https://github.com/LazyDuke/suidkup/issues"
+  },
+  "engines": {
+    "node": ">=8.9"
+  }
+}
