@@ -6,9 +6,13 @@
     "suidkup": "bin/suidkup.js"
   },
   "keywords": [
+    "suidkup",
     "sdk",
     "cli"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "author": "懒成铁 <weiguocai.fzu@gmail.com>",
   "homepage": "https://github.com/LazyDuke/suidkup#readme",
   "license": "MIT",
