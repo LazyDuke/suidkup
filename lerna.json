@@ -2,7 +2,8 @@
   "packages": [
     "packages/suidkup-cli-version-marker",
     "packages/@suidkup/cli*",
-    "packages/@suidkup/babel-preset-sdk"
+    "packages/@suidkup/babel-preset-sdk",
+    "packages/@suidkup/eslint-config-sdk"
   ],
   "npmClient": "yarn",
   "useWorkspaces": true,
