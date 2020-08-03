@@ -3327,6 +3327,17 @@ conventional-changelog-atom@^2.0.7:
   dependencies:
     q "^1.5.1"
 
+conventional-changelog-cli@^2.0.34:
+  version "2.0.34"
+  resolved "https://registry.npm.taobao.org/conventional-changelog-cli/download/conventional-changelog-cli-2.0.34.tgz#3d9da6011aaaf24f331b606ddc5087a6b811464b"
+  integrity sha1-PZ2mARqq8k8zG2Bt3FCHprgRRks=
+  dependencies:
+    add-stream "^1.0.0"
+    conventional-changelog "^3.1.21"
+    lodash "^4.17.15"
+    meow "^7.0.0"
+    tempfile "^3.0.0"
+
 conventional-changelog-codemirror@^2.0.7:
   version "2.0.7"
   resolved "https://registry.npm.taobao.org/conventional-changelog-codemirror/download/conventional-changelog-codemirror-2.0.7.tgz#d6b6a8ce2707710c5a036e305037547fb9e15bfb"
@@ -8605,6 +8616,11 @@ temp-dir@^1.0.0:
   resolved "https://registry.npm.taobao.org/temp-dir/download/temp-dir-1.0.0.tgz#0a7c0ea26d3a39afa7e0ebea9c1fc0bc4daa011d"
   integrity sha1-CnwOom06Oa+n4OvqnB/AvE2qAR0=
 
+temp-dir@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.npm.taobao.org/temp-dir/download/temp-dir-2.0.0.tgz#bde92b05bdfeb1516e804c9c00ad45177f31321e"
+  integrity sha1-vekrBb3+sVFugEycAK1FF38xMh4=
+
 temp-write@^3.4.0:
   version "3.4.0"
   resolved "https://registry.npm.taobao.org/temp-write/download/temp-write-3.4.0.tgz#8cff630fb7e9da05f047c74ce4ce4d685457d492"
@@ -8616,6 +8632,14 @@ temp-write@^3.4.0:
     pify "^3.0.0"
     temp-dir "^1.0.0"
     uuid "^3.0.1"
+
+tempfile@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.npm.taobao.org/tempfile/download/tempfile-3.0.0.tgz#5376a3492de7c54150d0cc0612c3f00e2cdaf76c"
+  integrity sha1-U3ajSS3nxUFQ0MwGEsPwDiza92w=
+  dependencies:
+    temp-dir "^2.0.0"
+    uuid "^3.3.2"
 
 terminal-link@^2.0.0:
   version "2.1.1"
