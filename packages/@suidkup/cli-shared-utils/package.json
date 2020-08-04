@@ -1,0 +1,34 @@
+{
+  "name": "@suidkup/cli-shared-utils",
+  "version": "0.0.1-alpha",
+  "description": "Shared utilities for suidkup packages.",
+  "keywords": [
+    "suidkup",
+    "cli",
+    "sdk",
+    "cli-shared-utils"
+  ],
+  "author": "懒成铁 <weiguocai.fzu@gmail.com>",
+  "homepage": "https://github.com/LazyDuke/suidkup#readme",
+  "license": "MIT",
+  "main": "index.js",
+  "files": [
+    "lib",
+    "index.js"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LazyDuke/suidkup.git",
+    "directory": "packages/@suidkup/cli-shared-utils"
+  },
+  "bugs": {
+    "url": "https://github.com/LazyDuke/suidkup/issues"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "semver": "^7.3.2"
+  }
+}
