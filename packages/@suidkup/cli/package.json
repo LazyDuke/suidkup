@@ -26,5 +26,11 @@
   },
   "engines": {
     "node": ">=8.9"
+  },
+  "dependencies": {
+    "@suidkup/cli-shared-utils": "0.0.1-alpha",
+    "commander": "^6.0.0",
+    "leven": "^3.1.0",
+    "minimist": "^1.2.5"
   }
 }
